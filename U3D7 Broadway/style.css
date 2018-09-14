@@ -1,6 +1,7 @@
 body {
   text-align: center;
   font-family: Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 #header,
@@ -22,25 +23,21 @@ font-size: 23px;
 
 p {
   font-size:14px;
+  font-weight: normal;
 }
 
 a {
   font-size: 18px;
 }
-h1,
-h2,
-h3 {
-  font-weight: bold;
-}
 
 #footer,
 #designed,
-h1,
-a {
+h1 {
   color: white;
 }
-#email {
-  color: inherit;
+#contact {
+  color: black;
+  font-weight: normal;
 }
 #footer {
   font-size: 11px;
