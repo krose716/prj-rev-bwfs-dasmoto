@@ -21,6 +21,14 @@ h4 {
   flex-wrap: wrap;
 }
 
+.parentcontainer {
+  margin: auto;
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  height: auto;
+}
+
 /* Header styles */
 
 header img {
@@ -69,7 +77,12 @@ z-index: 2;
 
 /* container2 styles */
 
-#piece img {
+#piece {
   display: block;
   text-align: center;
+  padding: 10px;
+}
+
+#container2 {
+  padding-top: 70px;
 }
