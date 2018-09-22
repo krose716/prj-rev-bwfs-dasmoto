@@ -1,5 +1,6 @@
 body,
 header {
+  margin: 0;
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -43,7 +44,7 @@ nav {
 
 nav span {
   display: inline-block;
-  padding: 20px 20px;
+  padding: 10px 20px;
   text-decoration: underline;
 }
 
@@ -57,7 +58,7 @@ border-bottom: 1px solid seashell;
 z-index: 2;
 }
 
- /* container1 styles */
+ /* OUR MISSION styles */
 
 #container1 {
   height: 700px;
@@ -75,14 +76,57 @@ z-index: 2;
     text-align: center;
 }
 
-/* container2 styles */
+/* Tea of the Month styles */
 
 #piece {
   display: block;
   text-align: center;
   padding: 10px;
+  margin: 0;
 }
 
 #container2 {
   padding-top: 70px;
+}
+
+/* Location styles */
+
+.container3 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+  height: 500px;
+}
+
+#locations {
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.newcontainer #locations {
+  margin: auto;
+  width: 300px;
+}
+
+/* Contact styles */
+.container4 {
+  height: 200px;
+  width: auto;
+  text-align: center;
+}
+
+#contact a {
+    color: seashell;
+}
+
+/* Footer styles */
+#footer {
+  padding-left: 20px;
+  text-align: left;
 }
